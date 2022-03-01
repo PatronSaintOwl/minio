@@ -3,7 +3,7 @@ module github.com/minio/minio
 go 1.14
 
 require (
-	cloud.google.com/go v0.39.0
+	cloud.google.com/go v0.41.0
 	git.apache.org/thrift.git v0.13.0
 	github.com/Azure/azure-pipeline-go v0.2.2
 	github.com/Azure/azure-storage-blob-go v0.10.0
@@ -16,7 +16,7 @@ require (
 	github.com/cespare/xxhash/v2 v2.1.1
 	github.com/cheggaaa/pb v1.0.28
 	github.com/colinmarc/hdfs/v2 v2.1.1
-	github.com/coredns/coredns v1.4.0
+	github.com/coredns/coredns v1.6.6
 	github.com/dchest/siphash v1.2.1
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/djherbis/atime v1.0.0
@@ -45,7 +45,7 @@ require (
 	github.com/mattn/go-colorable v0.1.4
 	github.com/mattn/go-ieproxy v0.0.1 // indirect
 	github.com/mattn/go-isatty v0.0.8
-	github.com/miekg/dns v1.1.8
+	github.com/miekg/dns v1.1.25
 	github.com/minio/cli v1.22.0
 	github.com/minio/highwayhash v1.0.0
 	github.com/minio/minio-go/v7 v7.0.6-0.20200929220449-755b5633803a
@@ -65,7 +65,7 @@ require (
 	github.com/philhofer/fwd v1.1.0 // indirect
 	github.com/pierrec/lz4 v2.4.0+incompatible
 	github.com/pkg/errors v0.9.1
-	github.com/prometheus/client_golang v1.0.0
+	github.com/prometheus/client_golang v1.2.1
 	github.com/rjeczalik/notify v0.9.2
 	github.com/rs/cors v1.7.0
 	github.com/secure-io/sio-go v0.3.0
@@ -75,7 +75,6 @@ require (
 	github.com/tidwall/gjson v1.3.5
 	github.com/tidwall/sjson v1.0.4
 	github.com/tinylib/msgp v1.1.3
-	github.com/ttacon/chalk v0.0.0-20160626202418-22c06c80ed31 // indirect
 	github.com/valyala/tcplisten v0.0.0-20161114210144-ceec8f93295a
 	github.com/willf/bitset v1.1.11 // indirect
 	github.com/willf/bloom v2.0.3+incompatible
@@ -85,7 +84,7 @@ require (
 	golang.org/x/net v0.0.0-20200904194848-62affa334b73
 	golang.org/x/sys v0.0.0-20200915084602-288bc346aa39
 	golang.org/x/tools v0.0.0-20200929223013-bf155c11ec6f // indirect
-	google.golang.org/api v0.5.0
+	google.golang.org/api v0.14.0
 	gopkg.in/jcmturner/gokrb5.v7 v7.3.0
 	gopkg.in/ldap.v3 v3.0.3
 	gopkg.in/olivere/elastic.v5 v5.0.86
